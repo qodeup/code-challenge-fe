@@ -9,7 +9,7 @@ export const Wrapper:FC<HeaderProps> = (props: HeaderProps) =>
 export const Content:FC<HeaderProps> = ({}) => (
     <>
       <div className="title">
-        totale del tavolo
+        totale
       </div>
       <div className="amount">
         90<small>.00€</small>

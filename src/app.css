@@ -48,17 +48,24 @@
   max-width: 25%;
 }
 
+.col-4 {
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%;
+}
+
 .col-6 {
   flex: 0 0 50%;
   max-width: 50%;
 }
 
-.mt-10 {
-  margin-top: 10px;
+.col-8 {
+  flex: 0 0 66.66666%;
+  max-width: 66.66666%;
 }
-.mt-30 {
-  margin-top: 30px;
-}
+
+.mt-10 {margin-top: 10px;}
+.mt-20 {margin-top: 20px;}
+.mt-30 {margin-top: 30px;}
 
 .t-left {
   text-align: left;
@@ -67,3 +74,6 @@
 .t-right {
   text-align: right;
 }
+
+.fs-16 {font-size: 16px;}
+.fs-18 {font-size: 18px;}

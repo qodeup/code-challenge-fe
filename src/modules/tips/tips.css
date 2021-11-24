@@ -1,48 +1,45 @@
-#split-the-bill {
+#tips {
   padding: 50px 6px;
+  background-color: #e9366a;
+  color: #fff;
 }
 
-.btn {
+.btn-tips {
   margin-left: 5px;
   margin-right: 5px;
-  background-color: #e9366a;
-  color: white;
   height: 80px;
+  background-color: #fff;
+  color: #474747;
   display: block;
   border-radius: 8px;
 }
 
-.btn-line-sm {
+.btn-tips-line-1 {
   padding-top: 5px;
   line-height: 30px;
-  font-size: 12px;
+  font-size: 14px;
 }
 
-.btn-line-md {
-  line-height: 40px;
-  font-size: 16px;
-}
-
-.btn-line-lg {
+.btn-tips-line-2 {
   line-height: 30px;
-  font-size: 36px;
+  font-size: 22px;
+  font-weight: 700;
 }
 
-.checkout-quote-title {
+.checkout-tips-title {
   margin-left:5px;
   margin-top: 18px;
   text-align: left;
   font-size: 22px;
 }
 
-.checkout-quote-value {
+.checkout-tips-value {
   margin-right:10px;
   text-align: right;
   font-size: 42px;
-  color: #e9366a;
   font-weight: 200;
 }
 
-.checkout-quote-value small {
+.checkout-tips-value small {
   font-size: 0.6em;
 }
