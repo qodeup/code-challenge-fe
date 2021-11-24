@@ -23,7 +23,7 @@ export const Content: FC<HeaderProps> = ({ }) => (
                 <div className="col-12">
                     <div className="row mt-20">
                         <div className="col-6 t-left">
-                            <div>Paghi</div>
+                            <div className="mt-6">Paghi</div>
                         </div>
                         <div className="col-6 t-right">
                             <div className="price">25<small>.50€</small></div>
@@ -33,7 +33,7 @@ export const Content: FC<HeaderProps> = ({ }) => (
             </div>
 
         </div>
-        <img src={payments} width="100%" alt="payments" />
+        <img className="mt-20" src={payments} width="100%" alt="payments" />
     </>
 )
 
