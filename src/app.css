@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+/* CSS BY STEFANO FOR QPAY USER */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.col-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+
+.t-left {
+  text-align: left;
+}
+
+.t-right {
+  text-align: right;
+}

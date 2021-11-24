@@ -1,15 +1,21 @@
+#total-amount {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #e1e1e1;
+}
 
 .title {
-  font-size: 42px;
-  color: #282c34;
+  font-size: 24px;
+  color: #474747;
 }
 
 .amount {
   font-size: 80px;
-  font-weight: bold;
+  font-weight: 200;
   color: #e9366a;
 }
 
-small {
+.amount small {
   font-size: 0.5em;
 }

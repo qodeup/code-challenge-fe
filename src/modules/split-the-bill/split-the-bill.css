@@ -1,11 +1,6 @@
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.col-3 {
-  flex: 0 0 25%;
-  max-width: 25%;
+#split-the-bill {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .btn {
@@ -18,13 +13,37 @@
   border-radius: 8px;
 }
 
-.btn-line-1 {
+.btn-line-sm {
   padding-top: 5px;
   line-height: 30px;
   font-size: 12px;
 }
 
-.btn-line-2 {
+.btn-line-md {
+  line-height: 40px;
+  font-size: 16px;
+}
+
+.btn-line-lg {
   line-height: 30px;
   font-size: 36px;
+}
+
+.checkout-quote-title {
+  margin-left:5px;
+  margin-top: 18px;
+  text-align: left;
+  font-size: 22px;
+}
+
+.checkout-quote-value {
+  margin-right:10px;
+  text-align: right;
+  font-size: 42px;
+  color: #e9366a;
+  font-weight: 200;
+}
+
+.checkout-quote-value small {
+  font-size: 0.6em;
 }
