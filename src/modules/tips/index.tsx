@@ -9,7 +9,7 @@ export const Wrapper: FC<HeaderProps> = (props: HeaderProps) =>
 
 export const Content: FC<HeaderProps> = ({ }) => (
     <>
-        <div className="row">
+        <div className="row mt-30">
             <div className="col-4">
             <img src={waiter} width="90px" alt="logo" />
             </div>

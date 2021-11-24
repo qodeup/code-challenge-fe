@@ -3,6 +3,7 @@ import { Header } from './modules/header';
 import { TotalAmount } from './modules/total-amount';
 import { SplitTheBill } from './modules/split-the-bill';
 import { Tips } from './modules/tips';
+import { Checkout } from './modules/checkout';
 import './app.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <TotalAmount />
       <SplitTheBill />
       <Tips />
+      <Checkout />
     </div>
   );
 }
