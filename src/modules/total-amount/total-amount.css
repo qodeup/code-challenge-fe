@@ -9,3 +9,7 @@
   font-weight: bold;
   color: #e9366a;
 }
+
+small {
+  font-size: 0.5em;
+}

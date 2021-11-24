@@ -4,7 +4,7 @@ import './total-amount.css';
 export interface HeaderProps extends PropsWithChildren<{}> {};
 
 export const Wrapper:FC<HeaderProps> = (props: HeaderProps) => 
-  <div id="total-amount">{props.children}</div>
+  <section id="total-amount">{props.children}</section>
 
 export const Content:FC<HeaderProps> = ({}) => (
     <>
@@ -12,7 +12,7 @@ export const Content:FC<HeaderProps> = ({}) => (
         totale del tavolo
       </p>
       <p className="amount">
-        90.00€
+        90<small>.00€</small>
       </p>
     </>
   )
