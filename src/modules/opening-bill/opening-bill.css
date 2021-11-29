@@ -1,0 +1,18 @@
+#opening-bill {
+  padding: 100px 6px;
+}
+
+#opening-bill .title {
+  font-size: 56px;
+  font-weight: 200;
+  color: #e9366a;
+  
+}
+
+#opening-bill .we-are-opening {
+  margin-top: 30px;
+  padding: 0px 20px;
+  font-size: 42px;
+  color: #474747;
+  font-weight: 200;
+}
