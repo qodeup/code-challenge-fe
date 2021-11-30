@@ -1,23 +1,23 @@
 import React, { ComponentProps, FC, PropsWithChildren, ReactElement } from "react";
-import './opening-bill.css';
+import './thank-you.css';
 
 export interface HeaderProps extends PropsWithChildren<{}> {};
 
 export const Wrapper:FC<HeaderProps> = (props: HeaderProps) => 
-  <section id="opening-bill">{props.children}</section>
+  <section id="thank-you">{props.children}</section>
 
 export const Content:FC<HeaderProps> = ({}) => (
     <>
       <div className="title">
-        attendi
+        grazie
       </div>
       <div className="subtitle">
-        stiamo aprendo il tuo conto
+        il pagamento è andato a buon fine
       </div>
     </>
   )
 
-export const Opening:FC<HeaderProps> = ({}) => {
+export const ThankYou:FC<HeaderProps> = ({}) => {
   return (
       <Wrapper>
         <Content />

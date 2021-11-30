@@ -1,23 +1,28 @@
 import React, { ComponentProps, FC, PropsWithChildren, ReactElement } from "react";
-import './opening-bill.css';
+import './payment-error.css';
 
 export interface HeaderProps extends PropsWithChildren<{}> {};
 
 export const Wrapper:FC<HeaderProps> = (props: HeaderProps) => 
-  <section id="opening-bill">{props.children}</section>
+  <section id="payment-error">{props.children}</section>
 
 export const Content:FC<HeaderProps> = ({}) => (
     <>
       <div className="title">
-        attendi
+      ⚠️
+      <br />
+        errore
       </div>
       <div className="subtitle">
-        stiamo aprendo il tuo conto
+        il pagamento non è andato a buon fine
+      </div>
+      <div className="description">
+        controlla che il metodo di pagamento utilizzato sia corretto
       </div>
     </>
   )
 
-export const Opening:FC<HeaderProps> = ({}) => {
+export const PaymentError:FC<HeaderProps> = ({}) => {
   return (
       <Wrapper>
         <Content />
