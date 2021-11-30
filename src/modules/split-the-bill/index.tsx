@@ -41,14 +41,14 @@ export const Content: FC<HeaderProps> = ({ }) => (
         <div className="row mt-10">
             <div className="col-6">
                 <a className="btn">
-                    <div className="btn-line-md">🥳</div>
-                    <div className="btn-line-md">Paga per tutti</div>
+                    <div className="btn-line-md-1">🥳</div>
+                    <div className="btn-line-md-2">Paga per tutti</div>
                 </a>
             </div>
             <div className="col-6">
                 <a className="btn">
-                    <div className="btn-line-md">Quota</div>
-                    <div className="btn-line-md">personalizzata</div>
+                    <div className="btn-line-md-1">Quota</div>
+                    <div className="btn-line-md-2">personalizzata</div>
                 </a>
             </div>
         </div>

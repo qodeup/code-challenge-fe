@@ -2,7 +2,7 @@
   padding: 50px 6px;
 }
 
-.btn {
+#split-the-bill .btn {
   margin-left: 5px;
   margin-right: 5px;
   background-color: #e9366a;
@@ -12,18 +12,34 @@
   border-radius: 8px;
 }
 
-.btn-line-sm {
+#split-the-bill .btn:hover {
+  background-color: #ec4877;
+  box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 12px 25px 0 rgba(0,0,0,0.19);
+}
+
+#split-the-bill .btn:focus {
+  background-color: #f76790;
+  box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 12px 25px 0 rgba(0,0,0,0.19);
+}
+
+#split-the-bill .btn-line-sm {
   padding-top: 5px;
   line-height: 30px;
   font-size: 13px;
 }
 
-.btn-line-md {
-  line-height: 40px;
-  font-size: 16px;
+#split-the-bill .btn-line-md-1 {
+  padding-top:10px;
+  line-height: 30px;
+  font-size: 22px;
+}
+#split-the-bill .btn-line-md-2 {
+  margin-top:-2px;
+  line-height: 30px;
+  font-size: 22px;
 }
 
-.btn-line-lg {
+#split-the-bill .btn-line-lg {
   line-height: 30px;
   font-size: 36px;
 }
