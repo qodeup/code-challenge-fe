@@ -18,3 +18,7 @@
 .amount small {
   font-size: 0.5em;
 }
+
+.already-paid {
+  padding: 0px 5px;
+}

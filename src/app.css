@@ -68,6 +68,8 @@
 .mt-10 {margin-top: 10px;}
 .mt-20 {margin-top: 20px;}
 .mt-30 {margin-top: 30px;}
+.mt-40 {margin-top: 40px;}
+.mt-50 {margin-top: 50px;}
 
 .t-left {
   text-align: left;
@@ -79,3 +81,10 @@
 
 .fs-16 {font-size: 16px;}
 .fs-18 {font-size: 18px;}
+
+.qodeup-color {
+  color: #e9366a;
+}
+.qodeup-background {
+  background: #e9366a;
+}
