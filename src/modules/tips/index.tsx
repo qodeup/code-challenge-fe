@@ -1,6 +1,6 @@
 import React, { ComponentProps, FC, PropsWithChildren, ReactElement } from "react";
 import './tips.css';
-import waiter from '../../images/waiters/elisa.png';
+import waiter from '../../images/waiters/waiters.png';
 
 export interface HeaderProps extends PropsWithChildren<{}> { };
 
@@ -11,10 +11,10 @@ export const Content: FC<HeaderProps> = ({ }) => (
     <>
         <div className="row mt-30">
             <div className="col-4">
-            <img src={waiter} width="90px" alt="logo" />
+            <img src={waiter} width="100px" alt="logo" />
             </div>
             <div className="col-8 t-left">
-                <div className="fs-16">Elisa ci ha messo molto impegno nel servire al vostro tavolo!</div>
+                <div className="fs-16">Lo staff ci ha messo molto impegno nel servire al tavolo!</div>
                 <h4 className="mt-10">Come è stato il servizio?</h4>
             </div>
         </div>

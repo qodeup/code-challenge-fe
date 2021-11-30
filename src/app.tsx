@@ -15,13 +15,13 @@ function App() {
   return (
     <div className="App">
       <Header />
-      {/* <TotalAmount />
+      <TotalAmount />
       <SplitTheBill />
       <Tips />
-      <Checkout /> */}
+      <Checkout />
       {/* <Opening /> */}
       {/* <ThankYou /> */}
-      <PaymentError />
+      {/* <PaymentError /> */}
       {/* <AlreadyPaid /> */}
     </div>
   );
