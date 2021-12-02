@@ -9,26 +9,26 @@ export const Wrapper: FC<HeaderProps> = (props: HeaderProps) =>
 export const Content: FC<HeaderProps> = ({ }) => (
     <>
         <div className="title">
-            totale
+            total bill
         </div>
         <div className="amount">
-            90<small>.00€</small>
+            --
         </div>
         <div className="already-paid mt-40">
             <div className="row">
                 <div className="col-6 t-left">
-                    Già pagato
+                    Already paid
                 </div>
                 <div className="col-6 t-right qodeup-color">
-                    22<small>.50€</small>
+                    0<small>.00€</small>
                 </div>
             </div>
             <div className="row mt-10">
                 <div className="col-6 t-left">
-                    Restante da pagare
+                    Remaining to pay
                 </div>
                 <div className="col-6 t-right qodeup-color">
-                    67<small>.50€</small>
+                    0<small>.00€</small>
                 </div>
             </div>
         </div>
