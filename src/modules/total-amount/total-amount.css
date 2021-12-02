@@ -1,0 +1,24 @@
+#total-amount {
+  padding: 50px 6px;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.title {
+  font-size: 24px;
+  color: #474747;
+}
+
+.amount {
+  font-size: 80px;
+  font-weight: 200;
+  color: #e9366a;
+}
+
+.amount small {
+  font-size: 0.5em;
+}
+
+.already-paid {
+  padding: 0px 5px;
+}
